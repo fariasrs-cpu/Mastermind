@@ -1,0 +1,15 @@
+{
+  "name": "mastermind-vanilla",
+  "version": "1.0.0",
+  "description": "Mastermind game for two players in vanilla JS",
+  "main": "src/app.js",
+  "type": "module",
+  "scripts": {
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js",
+    "start": "npx serve src"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0"
+  }
+}
